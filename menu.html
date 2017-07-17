@@ -1,47 +1,169 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Menu | 3 Reyes Tacos</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+<head>
+	<title>Menu | 3 Reyes Tacos</title>
+	<meta charset="utf-8"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link href="css/normalize.css" rel="stylesheet" type="text/css"/>
+  	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+  	<link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Open+Sans" rel="stylesheet">
   </head>
   <body>
     <header>
-      <a href="index.html" id="logo">
-        <h1>3 Reyes Tacos</h1>
-        <h3>Los Tacos Mas Chingones en Anaheim</h3>
-      </a>
-      <nav>
-        <ul id="navigation">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <a href="index.html">
+          <h1>3 Reyes Tacos</h1>
+        </a>
+        <nav>
+          <ul id="navigation">
+            <li class="selected"><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <section>
-      <h2>Menu</h2>
-      <table>
-        <tr>
-          <th>Item</th>
-          <th>Price</th>
-        </tr>
-        <tr>
-          <td>Taco</td>
-          <td>$2.00</td>
-        </tr>
-        <tr>
-          <td>Quesadilla</td>
-          <td>$7.00</td>
-        </tr>
-        <tr>
-          <td>Burrito</td>
-          <td>$8.00</td>
-        </tr>
-      </table>
+      <div class="menu-body">
+      <!-- Section starts: Tacos -->
+      <div class="menu-section">
+        <h2 class="menu-section-title">Tacos</h2>
+        <!-- Item Starts -->
+        <div class="menu-item">
+          <div class="menu-item-name">
+            Carne Asada
+          </div>
+          <div class="menu-item-price">
+            $10
+          </div>
+          <div class="menu-item-description">
+            Un taco bien perron y sabroso.
+          </div>
+        </div>
+        <!-- Item Ends -->
+
+        <!-- Item Starts -->
+        <div class="menu-item">
+          <div class="menu-item-name">
+            Al Pastor
+          </div>
+          <div class="menu-item-price">
+            $10
+          </div>
+          <div class="menu-item-description">
+            Un taco bien perron y sabroso.
+          </div>
+        </div>
+        <!-- Item Ends -->
+
+        <!-- Item Starts -->
+        <div class="menu-item">
+          <div class="menu-item-name">
+            Cabeza
+          </div>
+          <div class="menu-item-price">
+            $10
+          </div>
+          <div class="menu-item-description">
+            Un taco bien perron y sabroso.
+          </div>
+        </div>
+        <!-- Item Ends -->
+
+        <!-- Item Starts -->
+        <div class="menu-item">
+          <div class="menu-item-name">
+            Lengua
+          </div>
+          <div class="menu-item-price">
+            $10
+          </div>
+          <div class="menu-item-description">
+            Un taco bien perron y sabroso.
+          </div>
+        </div>
+        <!-- Item Ends -->
+
+        <!-- Item Starts -->
+        <div class="menu-item">
+          <div class="menu-item-name">
+            Chorizo
+          </div>
+          <div class="menu-item-price">
+            $10
+          </div>
+          <div class="menu-item-description">
+            Un taco bien perron y sabroso.
+          </div>
+        </div>
+        <!-- Item Ends -->
+
+      </div>
+      <!-- Section ends: Tacos -->
+
+      <!-- Section starts: Burritos -->
+      <div class="menu-section">
+        <h2 class="menu-section-title">Burritos</h2>
+        <!-- Item Starts -->
+        <div class="menu-item">
+          <div class="menu-item-name">
+            Chicken
+          </div>
+          <div class="menu-item-price">
+            $12
+          </div>
+          <div class="menu-item-description">
+            Un burrito bien perron y sabroso.
+          </div>
+        </div>
+        <!-- Item Ends -->
+
+        <!-- Item Starts -->
+        <div class="menu-item">
+          <div class="menu-item-name">
+            Bean and Cheese
+          </div>
+          <div class="menu-item-price">
+            $12
+          </div>
+          <div class="menu-item-description">
+            Un burrito bien perron y sabroso.
+          </div>
+        </div>
+        <!-- Item Ends -->
+
+        <!-- Item Starts -->
+        <div class="menu-item">
+          <div class="menu-item-name">
+            Veggie
+          </div>
+          <div class="menu-item-price">
+            $12
+          </div>
+          <div class="menu-item-description">
+            Un burrito bien perron y sabroso.
+          </div>
+        </div>
+        <!-- Item Ends -->
+
+      </div>
+      <!-- Section ends: Tacos -->
+    </div>
     </section>
-    <footer>&copy; 2017 3 Reyes Market Taqueria</footer>
+	<footer>
+      <div class="container">
+        <p>Find us on Facebook, Instagram, and Yelp</p>
+        <div class="icons">
+
+          <a href="https://www.facebook.com/3-Reyes-Market-Taqueria-Mexican-food-512777468898425/"><img src="img/facebook-f.svg" alt="Facebook icon" class="fb-icon"></a>
+
+          <a href="https://www.instagram.com/3reyestacos/"><img src="img/instagram-glyph.svg" alt="Instagram icon" class="ig-icon"></a>
+
+          <a href="https://www.yelp.com/biz/3-reyes-market-taqueria-mexican-food-anaheim"><img src="img/yelp-burst.svg" alt="Yelp icon" class="yelp-icon"></a>
+
+        </div>
+        <p class="copyright">&copy; 2017 3 Reyes Market Taqueria</p>
+      </div>
+	</footer>
   </body>
 </html>
